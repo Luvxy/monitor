@@ -1,0 +1,302 @@
+{
+  "youtube": {
+    "name": "YouTube",
+    "keywords": [
+      "youtube",
+      "- youtube -"
+    ],
+    "priority": 10
+  },
+  "chrome_google": {
+    "name": "Google Search",
+    "keywords": [
+      "chrome",
+      "google"
+    ],
+    "exclude": [
+      "youtube",
+      "gmail",
+      "drive",
+      "docs",
+      "sheets",
+      "slides"
+    ],
+    "priority": 8
+  },
+  "chrome_gmail": {
+    "name": "Gmail",
+    "keywords": [
+      "chrome",
+      "gmail"
+    ],
+    "priority": 9
+  },
+  "chrome_drive": {
+    "name": "Google Drive",
+    "keywords": [
+      "chrome",
+      "drive"
+    ],
+    "priority": 9
+  },
+  "chrome_workspace": {
+    "name": "Google Workspace",
+    "keywords": [
+      "chrome"
+    ],
+    "any_of": [
+      "docs",
+      "sheets",
+      "slides"
+    ],
+    "priority": 9
+  },
+  "chrome_github": {
+    "name": "GitHub",
+    "keywords": [
+      "chrome",
+      "github"
+    ],
+    "priority": 9
+  },
+  "chrome_stackoverflow": {
+    "name": "Stack Overflow",
+    "keywords": [
+      "chrome",
+      "stackoverflow"
+    ],
+    "priority": 9
+  },
+  "chrome_discord": {
+    "name": "Discord (Web)",
+    "keywords": [
+      "chrome",
+      "discord"
+    ],
+    "priority": 9
+  },
+  "chrome_notion": {
+    "name": "Notion",
+    "keywords": [
+      "chrome",
+      "notion"
+    ],
+    "priority": 9
+  },
+  "chrome_empty": {
+    "name": "Chrome (빈 탭)",
+    "keywords": [
+      "새 탭",
+      "new tab"
+    ],
+    "priority": 7
+  },
+  "chrome_general": {
+    "name": "Chrome (웹 브라우징)",
+    "keywords": [
+      "chrome"
+    ],
+    "priority": 5
+  },
+  "lost_ark": {
+    "name": "LOST ARK",
+    "keywords": [
+      "lost ark"
+    ],
+    "priority": 10
+  },
+  "stove": {
+    "name": "STOVE",
+    "keywords": [
+      "stove"
+    ],
+    "priority": 10
+  },
+  "steam": {
+    "name": "Steam",
+    "keywords": [
+      "steam"
+    ],
+    "priority": 10
+  },
+  "diablo": {
+    "name": "Diablo",
+    "keywords": [
+      "디아블로",
+      "diablo"
+    ],
+    "priority": 10
+  },
+  "valorant": {
+    "name": "VALORANT",
+    "keywords": [
+      "valorant",
+      "발로란트"
+    ],
+    "priority": 10
+  },
+  "league_of_legends": {
+    "name": "League of Legends",
+    "keywords": [
+      "league of legends",
+      "리그 오브 레전드",
+      "롤",
+      "lol",
+      "riot client",
+      "라이엇 클라이언트",
+      "leagueclient",
+      "riotclientux",
+      "League of Legends (TM) Client"
+    ],
+    "priority": 10
+  },
+  "vscode": {
+    "name": "Visual Studio Code",
+    "keywords": [
+      "visual studio code",
+      "- visual studio code"
+    ],
+    "priority": 10
+  },
+  "github_desktop": {
+    "name": "GitHub Desktop",
+    "keywords": [
+      "github desktop"
+    ],
+    "priority": 10
+  },
+  "git": {
+    "name": "Git",
+    "keywords": [
+      "git"
+    ],
+    "priority": 10
+  },
+  "discord": {
+    "name": "Discord",
+    "exact_match": [
+      "discord"
+    ],
+    "priority": 10
+  },
+  "telegram": {
+    "name": "Telegram",
+    "keywords": [
+      "telegram"
+    ],
+    "priority": 10
+  },
+  "kakaotalk": {
+    "name": "KakaoTalk",
+    "keywords": [
+      "kakaotalk",
+      "카카오톡"
+    ],
+    "priority": 10
+  },
+  "laftel": {
+    "name": "라프텔 (애니)",
+    "keywords": [
+      "라프텔"
+    ],
+    "priority": 10
+  },
+  "netflix": {
+    "name": "Netflix",
+    "keywords": [
+      "netflix"
+    ],
+    "priority": 10
+  },
+  "spotify": {
+    "name": "Spotify",
+    "keywords": [
+      "spotify"
+    ],
+    "priority": 10
+  },
+  "notepad": {
+    "name": "메모장",
+    "keywords": [
+      "notepad",
+      "메모장"
+    ],
+    "priority": 10
+  },
+  "excel": {
+    "name": "Excel",
+    "keywords": [
+      "excel"
+    ],
+    "priority": 10
+  },
+  "word": {
+    "name": "Word",
+    "keywords": [
+      "word"
+    ],
+    "priority": 10
+  },
+  "powerpoint": {
+    "name": "PowerPoint",
+    "keywords": [
+      "powerpoint"
+    ],
+    "priority": 10
+  },
+  "explorer": {
+    "name": "파일 탐색기",
+    "keywords": [
+      "explorer"
+    ],
+    "priority": 10
+  },
+  "task_switch": {
+    "name": "작업 전환",
+    "exact_match": [
+      "작업 전환"
+    ],
+    "priority": 10
+  },
+  "away": {
+    "name": "자리 비움",
+    "keywords": [
+      "자리 비움",
+      "비활성"
+    ],
+    "priority": 10
+  },
+  "system": {
+    "name": "시스템 작업",
+    "exact_match": [
+      "열기",
+      "닫기"
+    ],
+    "priority": 10
+  },
+  "python": {
+    "name": "Python",
+    "keywords": [
+      "python"
+    ],
+    "priority": 10
+  },
+  "activity_monitor": {
+    "name": "활동 모니터",
+    "keywords": [
+      "활동 분석 대시보드",
+      "ai 페르소나 모니터"
+    ],
+    "priority": 10
+  },
+  "tiktok": {
+    "name": "TikTok",
+    "priority": 10,
+    "keywords": [
+      "tiktok",
+      "틱톡"
+    ]
+  }
+}
+
+

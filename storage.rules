@@ -1,0 +1,22 @@
+rules_version = '2';
+
+// Storage rules for Activity Monitor installer
+service firebase.storage {
+  match /b/{bucket}/o {
+    // Allow public read access to installer files
+    match /installers/{allPaths=**} {
+      allow read: if true;
+      allow write: if false; // Only allow write through admin SDK
+    }
+    
+    match /lounge_images/{allPaths=**} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    // Default deny all other access
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}

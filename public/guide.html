@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이용 가이드 | 시간기록부 (시기부)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .glass {
+            background: rgba(17, 24, 39, 0.7);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .article-card {
+            background: rgba(31, 41, 55, 0.5);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 1.5rem;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-900 text-gray-200">
+
+    <!-- Navigation Bar -->
+    <nav class="fixed top-0 w-full z-50 glass">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="/" class="text-xl font-bold text-white flex items-center space-x-2">
+                <div class="w-10 h-10 bg-indigo-600 rounded-lg flex items-center justify-center overflow-hidden">
+                    <img src="/icon.png" alt="Icon" class="w-full h-full object-cover">
+                </div>
+                <span>시간기록부</span>
+            </a>
+            <div class="hidden md:flex space-x-8 items-center">
+                <a href="/" class="text-gray-400 hover:text-white transition-colors">홈으로</a>
+                <a href="#motivation" class="text-gray-400 hover:text-white transition-colors">제작 동기</a>
+                <a href="#how-to-use" class="text-gray-400 hover:text-white transition-colors">상세 사용법</a>
+                <a href="https://firebasestorage.googleapis.com/v0/b/monitor-3jp.firebasestorage.app/o/ActivityMonitor_Installer.exe?alt=media&token=f0c7bf94-453f-4085-acd0-26d94eea004d"
+                    class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-6 rounded-full transition-all text-sm">
+                    다운로드
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-4 pt-32 pb-20 max-w-4xl">
+        <!-- 1. 프로젝트 제작 동기 -->
+        <section id="motivation" class="mb-24">
+            <h1 class="text-4xl lg:text-5xl font-extrabold text-white mb-8 tracking-tight">
+                우리는 왜 <span class="text-indigo-400">시간기록부</span>를 만들었을까?
+            </h1>
+            <div class="article-card p-8 lg:p-12 leading-relaxed text-gray-300 space-y-6">
+                <p>
+                    "오늘 하루 정말 바쁘게 보낸 것 같은데, 정작 오늘 내가 뭘 했지?"
+                    우리는 매일 모니터 앞에서 수많은 시간을 보내지만, 그 시간이 구체적으로 어떻게 흘러갔는지 기억하지 못할 때가 많습니다.
+                </p>
+                <p>
+                    많은 시간 관리 도구들이 있지만, 대부분은 사용자가 직접 "지금부터 일을 시작한다"고 버튼을 눌러야 하거나, 수동으로 로그를 기록해야 합니다.
+                    하지만 진정한 집중의 순간에 기록을 챙기기란 쉽지 않죠.
+                </p>
+                <p class="font-semibold text-white">
+                    그래서 우리는 '침묵의 기록자'를 만들기로 했습니다.
+                </p>
+                <p>
+                    사용자가 의식하지 않아도 뒷단에서 묵묵히 활동을 기록하고, 그 파편화된 데이터를 모아 하나의 의미 있는 리포트로 만들어주는 서비스.
+                    우리의 목표는 명확합니다. 당신이 무의식적으로 흘려보낸 시간을 직면하게 하고, 더 나은 내일의 시간을 설계할 수 있도록 돕는 것입니다.
+                </p>
+            </div>
+        </section>
+
+        <!-- 2. 시간 기록의 중요성 (칼럼) -->
+        <section id="importance" class="mb-24">
+            <div
+                class="bg-gradient-to-br from-indigo-900/40 to-purple-900/40 border border-indigo-500/20 rounded-3xl p-8 lg:p-12">
+                <h2 class="text-2xl lg:text-3xl font-bold text-white mb-6">시간 기록: 생산성을 위한 가장 강력한 메타인지</h2>
+                <div class="prose prose-invert max-w-none text-gray-400 space-y-4">
+                    <p>
+                        피터 드러커는 말했습니다. "측정할 수 없으면 관리할 수 없다."
+                        우리의 시간도 마찬가지입니다. 자신이 시간을 어떻게 쓰고 있는지 정확히 알지 못하면 효율적인 계획은 불가능합니다.
+                    </p>
+                    <p>
+                        시간 기록은 단순히 '내가 일을 얼마나 했나'를 확인하는 용도가 아닙니다. 이는 <strong>'메타인지(Metacognition)'</strong>를 활성화하는
+                        과정입니다.
+                        데이터를 통해 내가 어느 시간대에 가장 집중력이 좋은지, 어떤 사이트에서 도파민을 낭비하고 있는지 객관적으로 바라볼 때 비로소 변화가 시작됩니다.
+                    </p>
+                    <p>
+                        성공한 사람들의 공통점 중 하나는 자신의 가용 시간을 명확히 알고 있다는 점입니다.
+                        시간기록부와 함께라면, 당신은 보이지 않는 시간의 흐름을 통제할 수 있는 힘을 갖게 될 것입니다.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. 상세 사용법 -->
+        <section id="how-to-use" class="mb-24">
+            <h2 class="text-3xl font-bold text-white mb-10">상세 이용 가이드</h2>
+
+            <div class="space-y-16">
+                <div class="flex flex-col md:flex-row gap-8 items-start">
+                    <div class="md:w-1/2">
+                        <div class="text-indigo-500 font-bold mb-2">STEP 01</div>
+                        <h3 class="text-xl font-bold text-white mb-4">수집기 프로그램 다운로드 및 실행</h3>
+                        <p class="text-gray-400">
+                            상단 네비게이션의 [다운로드] 버튼을 눌러 프로그램을 내려받으세요.
+                            설치 후 실행하면 트레이 아이콘 형태로 숨어서 당신의 PC 활동(활성화된 창 제목, 카테고리 등)을 자동으로 기록하기 시작합니다.
+                        </p>
+                    </div>
+                    <div
+                        class="md:w-1/2 aspect-video bg-gray-800 rounded-2xl flex items-center justify-center border border-gray-700">
+                        <span class="text-gray-500">[프로그램 실행 및 아이콘 이미지 영역]</span>
+                    </div>
+                </div>
+
+                <div class="flex flex-col md:flex-row-reverse gap-8 items-start">
+                    <div class="md:w-1/2">
+                        <div class="text-purple-500 font-bold mb-2">STEP 02</div>
+                        <h3 class="text-xl font-bold text-white mb-4">PC 활동 후 CSV 확인</h3>
+                        <p class="text-gray-400">
+                            일정 시간 PC를 사용한 후, 프로그램이 자동으로 생성하는 `raw_activity_log.csv` 파일을 확인하세요.
+                            이 파일은 오직 당신의 PC에만 저장되며, 외부로 전송되지 않아 안심하고 사용할 수 있습니다.
+                        </p>
+                    </div>
+                    <div
+                        class="md:w-1/2 aspect-video bg-gray-800 rounded-2xl flex items-center justify-center border border-gray-700 text-center px-6">
+                        <span class="text-gray-500 text-sm">`2024-01-01 10:00:00, 300, 개발, Visual Studio Code` <br> 형태의
+                            데이터가 기록됩니다.</span>
+                    </div>
+                </div>
+
+                <div class="flex flex-col md:flex-row gap-8 items-start">
+                    <div class="md:w-1/2">
+                        <div class="text-teal-500 font-bold mb-2">STEP 03</div>
+                        <h3 class="text-xl font-bold text-white mb-4">웹 대시보드에서 파일 업로드</h3>
+                        <p class="text-gray-400">
+                            메인 페이지의 [CSV 파일 선택] 버튼을 눌러 수집된 로그를 업로드하세요.
+                            AI가 실시간으로 데이터를 분석하여 시각화 차트와 함께 페르소나 리포트를 생성합니다.
+                        </p>
+                    </div>
+                    <div
+                        class="md:w-1/2 aspect-video bg-gray-800 rounded-2xl flex items-center justify-center border border-gray-700">
+                        <span class="text-gray-500">[대시보드 분석 완료 이미지 영역]</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Windows Defender 해결 방법 -->
+        <section id="defender-fix" class="mb-24">
+            <div class="article-card border-yellow-500/30 overflow-hidden">
+                <div class="bg-yellow-900/30 p-8 border-b border-yellow-500/20">
+                    <h2 class="text-2xl font-bold text-yellow-200 flex items-center">
+                        <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd"
+                                d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z"
+                                clip-rule="evenodd" />
+                        </svg>
+                        Windows Defender SmartScreen 해결 가이드
+                    </h2>
+                </div>
+                <div class="p-8 lg:p-12 space-y-8">
+                    <p class="text-gray-300">
+                        프로그램 실행 시 "Windows의 PC 보호"라는 로고와 함께 "인식할 수 없는 앱의 시작을 차단했습니다."라는 메시지가 뜰 수 있습니다.
+                        이는 마이크로소프트에 고가의 인증서를 등록하지 않은 '독립 개발자'의 프로그램이기 때문에 발생하는 일반적인 과정이며, 바이러스가 아닙니다.
+                    </p>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div>
+                            <div class="font-bold text-white mb-4">1. 추가 정보 클릭</div>
+                            <div class="bg-gray-800 p-4 rounded-xl border border-gray-700 text-sm text-gray-500 mb-2">
+                                파란색 메시지 박스 내에 있는 작은 글씨인 "추가 정보"를 클릭하세요.
+                            </div>
+                        </div>
+                        <div>
+                            <div class="font-bold text-white mb-4">2. 실행 버튼 클릭</div>
+                            <div class="bg-gray-800 p-4 rounded-xl border border-gray-700 text-sm text-gray-500">
+                                우측 하단에 새롭게 나타난 "실행" 버튼을 클릭하면 정상적으로 시작됩니다.
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="text-sm text-gray-500 bg-gray-800/50 p-4 rounded-lg">
+                        * 만약 프로그램이 의심스러우시다면, 모든 소스코드가 투명하게 공개되어 있으므로 안심하고 사용하셔도 좋습니다.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-10 border-t border-gray-800 text-center">
+        <div class="flex flex-col items-center space-y-4">
+            <p class="text-gray-500 text-sm">© 2026 시간기록부 (시기부). All rights reserved.</p>
+            <div class="flex space-x-6 text-xs text-gray-400">
+                <a href="/" class="hover:text-indigo-400 transition-colors">홈으로</a>
+                <a href="/privacy.html" class="hover:text-indigo-400 transition-colors">개인정보처리방침</a>
+                <a href="/terms.html" class="hover:text-indigo-400 transition-colors">이용약관</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
